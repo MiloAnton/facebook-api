@@ -3,20 +3,20 @@
     "version": "1.0.0",
     "main": "main.js",
     "scripts": {
-      "dev": "nodemon"
+        "dev": "nodemon"
     },
     "dependencies": {
-      "@prisma/client": "^3.10.0",
-      "base64url": "^3.0.1",
-      "express": "^4.17.3",
-      "jsonwebtoken": "^8.5.1"
+        "@prisma/client": "^3.10.0",
+        "base64url": "^3.0.1",
+        "express": "^4.17.3",
+        "jsonwebtoken": "^8.5.1"
     },
     "devDependencies": {
-      "@babel/cli": "^7.17.6",
-      "@babel/core": "^7.17.5",
-      "@babel/node": "^7.16.8",
-      "@babel/preset-env": "^7.16.11",
-      "nodemon": "^2.0.15",
-      "prisma": "^3.10.0"
+        "@babel/cli": "^7.17.6",
+        "@babel/core": "^7.17.5",
+        "@babel/node": "^7.16.8",
+        "@babel/preset-env": "^7.16.11",
+        "nodemon": "^2.0.15",
+        "prisma": "^3.10.0"
     }
-  }
+}
