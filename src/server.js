@@ -1,5 +1,5 @@
-import express from 'express';
-import routes from './routes/index.js';
+import express from "express";
+import routes from "./routes/index.js";
 
 export const launch = ({ protocol, port, host }) => {
   const application = express();
@@ -8,8 +8,7 @@ export const launch = ({ protocol, port, host }) => {
 
   application.use(routes);
 
-  application.listen(
-    port,
-    () => console.log(`API ready at ${protocol}://${host}:${port}`),
+  application.listen(port, () =>
+    console.log(`API ready at ${protocol}://${host}:${port}`)
   );
-}
+};

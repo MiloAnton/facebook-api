@@ -1,18 +1,17 @@
-import { response } from 'express';
-import * as userModel from '../models/users.model'
-
+import { response } from "express";
+import * as userModel from "../models/users.model";
 
 export const getById = async (_request, response) => {
-    const {id} = _request.params;
-    response.json({
-        user : await userModel.getById({
-           id : id
-        })
-    })
-}
+  const { id } = _request.params;
+  response.json({
+    user: await userModel.getById({
+      id,
+    }),
+  });
+};
 
-export const deleteById = async (request,response) => {
-    const {id} = request.params;
-    const resp = await userModel.deleteById({id: id})
-    response.json({resp})
-}
+export const deleteById = async (request, response) => {
+  const { id } = request.params;
+  const resp = await userModel.deleteById({ id: id });
+  response.json({ resp });
+};
