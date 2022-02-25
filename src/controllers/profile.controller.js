@@ -3,7 +3,7 @@ import * as ProfileModel from '../models/profile.model';
 export const updateProfile = async (_request,response) => {
     const profileData = _request.body;
     const {id} = _request.params;
-    const profile = await ProfileModel.upsertProfile({
+    const profile = await ProfileModel.upsertUser({
         firstName: profileData.firstName ,
         lastName: profileData.lastName,
         userId: id
