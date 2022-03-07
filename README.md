@@ -1,5 +1,5 @@
 # facebook-api
-## _The Last social network REST API you'll ever need_
+## _The Last social network REST API you'll ever need, I swear !_
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 [![No Maintenance Intended](http://unmaintained.tech/badge.svg)](http://unmaintained.tech/)
@@ -14,14 +14,15 @@ coded in JavaScript.
 - Feel free to give me bonus points for happiness and "joie de vivre"
 - ✨Magic✨
 
-
 ## Features
 
+- SECURE each user with HASHED passwords
 - POST new users
 - GET Users, Profiles and Posts
 - POST new posts 
 - DELETE Users and Profiles 
 - UPDATE Posts
+- And many more that I didn't want to take time to write here :) 
 
 facebook-api is a basic lightweight social network REST API.
 
@@ -107,7 +108,7 @@ node main.js
 
 ## Commands 
 
-The server handles the commands tested with postman, and provided in a JSON file in the repo.
+The server handles the commands tested with postman, and provided in a JSON file in the repo : *Facebook API.postman_collection.json*
 
 ## License
 

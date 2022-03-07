@@ -11,7 +11,7 @@ const jwtMiddleware = (request, response, next) => {
     response.status(401).json({
       error: {
         code: "E010",
-        message: "Unauthorized",
+        message: "Connection unauthorized, token invalid",
       },
     });
   }

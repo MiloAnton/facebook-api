@@ -9,6 +9,6 @@ export const launch = ({ protocol, port, host }) => {
   application.use(routes);
 
   application.listen(port, () =>
-    console.log(`API ready at ${protocol}://${host}:${port}`)
+    console.log(`MiloAnton/facebook-api is ready and running at ${protocol}://${host}:${port}`)
   );
 };
